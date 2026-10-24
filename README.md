@@ -132,20 +132,20 @@ Push it to GitHub:
 
 ## Run with Docker
 ```bash
-docker build -t studymate-rag-assistant .
-docker run -p 8501:8501 studymate-rag-assistant
+docker build -t collage-notes-tutor .
+docker run -p 8501:8501 collage-notes-tutor
 ```
 Open http://localhost:8501
 
 If port 8501 is busy, use another port:
 ```bash
-docker run -p 8600:8501 studymate-rag-assistant
+docker run -p 8601:8601 collage-notes-tutor
 ```
-Open http://localhost:8600
+Open http://localhost:8601
 
 Or pull the ready-made image:
 ```bash
-docker run -p 8501:8501 <your-dockerhub-username>/studymate-rag-assistant:1.0
+docker run -p 8501:8501 sruthivignesh/collage-notes-tutor:1.0
 ```
 
 ## CI/CD with Jenkins
