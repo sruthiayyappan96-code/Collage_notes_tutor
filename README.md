@@ -83,8 +83,8 @@ Your question → vector → FAISS finds the 4 closest chunks
 
 ## Run Locally
 ```bash
-git clone https://github.com/<your-github-username>/studymate-rag-assistant.git
-cd studymate-rag-assistant
+git clone https://github.com/<your github username>/collage_notes_tutor.git
+cd COLLAGE_NOTES_TUTOR
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
