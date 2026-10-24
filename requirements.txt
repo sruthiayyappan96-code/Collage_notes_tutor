@@ -1,0 +1,5 @@
+streamlit
+faiss-cpu
+numpy
+google-genai
+pypdf
